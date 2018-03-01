@@ -1,0 +1,55 @@
+
+
+body {
+  background-color:teal;
+  background-image:"favicon.png";
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100%;
+
+}
+h1{font-family:sans-serif;
+font:"balto light";
+font-size:50;
+text-align:center;
+
+
+}
+
+h2{font-family:sans-serif;
+font:"balto light";
+font-size:50;
+text-align:center;
+}
+.mainwrapper{
+  background-image:url(favicon.png);
+  background-repeat:no-repeat;
+  background-position:top;
+  background-size: cover;
+  background-color:red;
+  height:100%;
+  width:100%;
+  position:relative;
+  color:white;
+  text-align:center;}
+
+a{
+  color:inherit;
+}
+a:hover{
+  color:yellow;
+
+
+}
+img{
+  height:auto;
+width:100%;}
+
+
+
+.personal-info{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translateX(-50%)  translateY(50%);
+}
